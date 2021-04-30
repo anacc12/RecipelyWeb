@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/add-recipe.css" />
+  </head>
+  <body>
+    <div class="add-recipe-form">
+      <div class="row">
+        <div class="col-md-6 ingredients-col">
+          <form action="../php/add-recipe.php" method="POST" autocomplete="off">
+            <h1>Ingredients</h1>
+            <div class="input-holder">
+                <input placeholder="Title" name="title"/>
+            <textarea placeholder="Write ingredients here" name="ingredients"></textarea>
+        </div>
+      </div>
+
+        <div class="col-md-6 instructions-col">
+            <h1>Instructions</h1>
+            <div class="form">
+            <div class="input-holder instructions">
+            <textarea placeholder="Write instructions here" name="instructions"></textarea>
+            <button name="save" class="save">Save</button>
+          </form>
+        </div>
+    </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

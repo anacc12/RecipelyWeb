@@ -1,0 +1,135 @@
+.add-recipe-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  font-family: Raleway;
+}
+
+.row {
+  width: 65%;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 12px 45px;
+  margin-top: 4vh;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+
+form {
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.form {
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.input-holder {
+  margin-top: 5vh;
+}
+input {
+  background-color: #eee;
+  border: none;
+  padding: 2vh 3vh;
+  margin: 1.5vh 0;
+  width: 100%;
+  border-radius: 30px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.instructions input,
+.instructions textarea {
+  background-color: #f5f5f5;
+}
+
+textarea {
+  background-color: #eee;
+  border: none;
+  padding: 2vh 3vh;
+  margin: 1.5vh 0;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.ingredients-col {
+  background-color: white;
+  text-align: center;
+  padding: 8vh 3vw 8vh 3vw;
+  border-radius: 30px 0px 0px 30px;
+  position: relative;
+}
+
+.instructions-col {
+  background: linear-gradient(
+    315deg,
+    rgba(207, 135, 255, 1) 0%,
+    rgba(165, 219, 255, 1) 100%
+  );
+  text-align: center;
+  color: white;
+  padding: 8vh 3vw 8vh 3vw;
+  border-radius: 0px 30px 30px 0px;
+  opacity: 1;
+}
+button:focus {
+  outline: none;
+}
+.instructions-col textarea {
+  background-color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 4vw !important;
+  }
+  .ingredients-col {
+    border: 1px solid rgba(207, 135, 255, 1);
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  textarea,
+  input {
+    font-size: 2vw;
+  }
+
+  .instructions-col {
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  button {
+    font-size: 1.7vw;
+  }
+}

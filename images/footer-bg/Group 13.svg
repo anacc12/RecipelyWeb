@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="741" height="208" viewBox="0 0 741 208">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.809" x2="-0.013" y2="0.267" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cf87ff"/>
+      <stop offset="1" stop-color="#85ccfc"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_13" data-name="Group 13" transform="translate(0)" opacity="0.62">
+    <path id="Union_3" data-name="Union 3" d="M315,152.5c0-30.651,27.087-55.5,60.5-55.5S436,121.848,436,152.5,408.913,208,375.5,208,315,183.152,315,152.5Zm359,11.77c0-18.076,15-32.729,33.5-32.729S741,146.194,741,164.27,726,197,707.5,197,674,182.346,674,164.27Zm-674,0c0-18.076,15-32.729,33.5-32.729S67,146.194,67,164.27,52,197,33.5,197,0,182.346,0,164.27ZM479,82c0-45.287,38.951-82,87-82s87,36.713,87,82-38.951,82-87,82S479,127.287,479,82ZM170,114.27c0-18.076,15-32.73,33.5-32.73S237,96.194,237,114.27,222,147,203.5,147,170,132.346,170,114.27Z" transform="translate(741 208) rotate(180)" opacity="0.62" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
